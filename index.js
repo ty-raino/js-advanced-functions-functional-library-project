@@ -5,7 +5,7 @@ const fi = (function() {
     },
 
     each: function() {
-
+      return fi.each(obj, alert);
     },
 
     map: function() {
